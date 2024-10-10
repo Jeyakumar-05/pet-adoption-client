@@ -1,4 +1,6 @@
-const API_URL = 'http://localhost:7777'; 
+// const API_URL = 'http://localhost:7777'; 
+ const API_URL = 'https://pet-adoption-server-nwpu.onrender.com'; 
+
 
 export const fetchPets = async () => {
   try {
