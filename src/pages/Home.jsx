@@ -32,9 +32,12 @@ const Home = () => {
           <p className="text-lg text-gray-500 mb-8">
             Every Pet Deserves a Good Home. <span className="font-semibold text-gray-800">#Adoptlove</span>
           </p>
-          <a href="/adopt" className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg shadow">
+          {/* <a href="/adopt" className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg shadow">
             Adopt a pet
-          </a>
+          </a> */}
+           <Link  to="/adopt" className='bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg shadow'>
+               Adopt
+              </Link>
         </div>
 
         {/* Section 3 */}
