@@ -6,6 +6,7 @@ import dogsearch from '../assests/img/search.png';
 import hours from '../assests/img/24.png';
 import pethomee from '../assests/img/pethomee.png';
 import { Search, MessageSquareText, PawPrint } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(null);
